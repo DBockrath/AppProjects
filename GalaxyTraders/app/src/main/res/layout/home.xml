@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@drawable/sun">
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Travel"
+		android:onClick="travel()"
+		android:textSize="25sp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:id="@+id/travelButton"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Inventory"
+		android:layout_below="@id/travelButton"
+		android:onClick="inventory()"
+		android:textSize="25sp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:id="@+id/inventoryButton"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Spaceship"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:textSize="25sp"
+		android:onClick="spaceship()"
+		android:id="@+id/spaceshipButton"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Shop"
+		android:layout_above="@id/spaceshipButton"
+		android:id="@+id/shopButton"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:textSize="25sp"
+		android:onClick="shop()"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@drawable/galaxy1">
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="32dp"
+		android:layout_width="32dp"
+		android:text="1"
+		android:textIsSelectable="true"
+		android:textSize="10sp"
+		android:onClick="planet1()"
+		android:translationX="200dp"
+		android:translationY="200dp"
+		android:id="@+id/galaxy1Button1"
+		android:textColor="#620500"/>
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="32dp"
+		android:layout_width="32dp"
+		android:text="2"
+		android:layout_below="@id/galaxy1Button1"
+		android:textSize="10sp"
+		android:textIsSelectable="true"
+		android:onClick="planet2()"
+		android:id="@+id/galaxy1Button2"
+		android:translationX="500dp"
+		android:textColor="#620500"
+		android:translationY="100dp"/>
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="32dp"
+		android:layout_width="32dp"
+		android:text="3"
+		android:layout_below="@id/galaxy1Button2"
+		android:textSize="10sp"
+		android:textIsSelectable="true"
+		android:translationX="800dp"
+		android:textColor="#620500"
+		android:translationY="400dp"/>
+
+</RelativeLayout>
+

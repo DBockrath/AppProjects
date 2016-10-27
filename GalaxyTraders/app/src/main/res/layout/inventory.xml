@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="#534F4E">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:text="Water"
+		android:textSize="25sp"
+		android:id="@+id/inventoryTextView1"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Buy"
+		android:layout_alignParentRight="true"
+		android:id="@+id/buyWaterButton"
+		android:onClick="buyWater()"/>
+
+	<Button
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Sell"
+		android:layout_toLeftOf="@id/buyWaterButton"
+		android:id="@+id/sellWaterButton"
+		android:onClick="sellWater()"/>
+
+</RelativeLayout>
+
