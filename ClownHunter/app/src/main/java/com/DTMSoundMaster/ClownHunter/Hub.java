@@ -23,7 +23,7 @@ public class Hub extends Activity {
 	
 	public void go() {
 		
-		username = input;
+		
 		
 	}
 	
