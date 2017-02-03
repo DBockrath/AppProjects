@@ -10,17 +10,17 @@ public class Main extends Activity {
 	public static String spaceshipBackground = "@drawable/barracudabackground";
 
 	// Travel
-	public static String currentPlanet;
-	public static boolean planet1 = true;
-	public static boolean planet2 = false;
-	public static boolean planet3 = false;
-	public static boolean planet4 = false;
-	public static boolean planet5 = false;
-	public static boolean planet6 = false;
-	public static boolean planet7 = false;
-	public static boolean planet8 = false;
-	public static boolean planet9 = false;
-	public static boolean planet10 = false;
+	public static String currentPlanet = "Earth";
+	public static boolean Mercury = false;
+	public static boolean Venus = false;
+	public static boolean Earth = true;
+	public static boolean Mars = false;
+	public static boolean Jupiter = false;
+	public static boolean Saturn = false;
+	public static boolean Uranus = false;	
+	public static boolean Neptune = false;
+	public static boolean Pluto = false;
+	public static boolean Planet9 = false;
 
 	// Reasources
 	public static double water;
@@ -32,9 +32,9 @@ public class Main extends Activity {
 
 	// Guns
 	public static double terminator;
-	public static double exterminator;
+	public static double exterminator;	
 
-	// Cannons
+	// Cannons	
 	public static double doomslayer;
 
 	// Bombs
