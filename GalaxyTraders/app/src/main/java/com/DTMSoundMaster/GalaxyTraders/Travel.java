@@ -87,5 +87,26 @@ public class Travel {
 		
 		}
 	 }
+	 public void Jupiter() {
+	 
+	 Scanner scanner = new Scanner(System.in);
+		 
+		private boolean confirm;
+		private String input;
+		 
+		System.out.println("Are you sure you want to travel to Jupiter?");
+		System.out.println("Enter 'yes' or 'no'");
+		input = scanner.nextLine();
+		
+		if (input == "yes") {
+		
+			confirm = true;
+		
+		} else {
+		
+			confirm = false;
+		
+		}
+	 }
 	
 }
