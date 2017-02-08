@@ -14,9 +14,13 @@ public class Travel {
 		System.out.println("Enter 'yes' or 'no'");
 		input = scanner.nextLine();
 		
-		if (input == "True") {
+		if (input == "yes") {
 		
+			confirm = true;
 		
+		} else {
+		
+			confirm = false;
 		
 		}
 	 }
