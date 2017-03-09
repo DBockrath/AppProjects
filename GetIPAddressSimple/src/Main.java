@@ -11,7 +11,7 @@ class Main {
 		InetAddress localhost = InetAddress.getLocalHost();
 		String ip = localhost.getHostAddress();
 		String hostname = localhost.getHostName();
-		// List addresses = InetAddress.getAllByName(localhost.getCanonicalHostName());
+		List addresses = InetAddress.getAllByName(localhost.getCanonicalHostName());
 		
 		System.out.println(ip);
 		System.out.println(hostname);
