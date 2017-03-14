@@ -1,19 +1,22 @@
-import java.net.InetAddress;
-import java.net.UnknownHostException;
-import java.util.List;
+import java.net.*;
+import java.io.*;
 
 class Main {
 	
-	public static void main(String[] args) throws UnknownHostException {
+	public static void main(String[] args) throws Exception {
 		
 		try {
 			
 		InetAddress localhost = InetAddress.getLocalHost();
-		String ip = localhost.getHostAddress();
+		URL whatIsMyIp = new URL("http://checkip.amazonaws.com");
+		BufferedReader in = new BufferedReader(new InputStreamReader(whatIsMyIp.openStream()));
+		
+		String ip = in.readLine();
+		String privateIp = localhost.getHostAddress();
 		String hostname = localhost.getHostName();
-		// List addresses = InetAddress.getAllByName(localhost.getCanonicalHostName());
 		
 		System.out.println(ip);
+		System.out.println(privateIp);
 		System.out.println(hostname);
 		
 		} catch (UnknownHostException ex) {
