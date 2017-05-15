@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#000000">
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Back"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/travellayoutButton1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Transport Goods"
+		android:layout_above="@id/travellayoutButton1"
+		android:id="@+id/travellayoutButton2"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Travel to Another Planet"
+		android:layout_above="@id/travellayoutButton2"
+		android:id="@+id/travellayoutButton3"/>
+
+	<ExpandableListView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_above="@id/travellayoutButton3"/>
+
+</RelativeLayout>
+

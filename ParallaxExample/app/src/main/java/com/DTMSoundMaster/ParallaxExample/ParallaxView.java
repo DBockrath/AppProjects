@@ -57,12 +57,6 @@ public class ParallaxView extends SurfaceView implements Runnable {
 					this.context,
 					screenWidth,
 					screenHeight,
-					"car", 0, 100, 0));
-					
-		backgrounds.add(new Background(
-					this.context,
-					screenWidth,
-					screenHeight,
 					"grass", 70, 110, 200));
 					
 		// Add more backgrounds here
@@ -144,11 +138,6 @@ public class ParallaxView extends SurfaceView implements Runnable {
 			
 			// Draw the background parallax
 			drawBackground(0);
-			
-			// Draw the rest of the game
-			paint.setTextSize(60);
-			paint.setColor(Color.argb(255, 255, 255, 255));
-			canvas.drawText("I am a plane", 350, screenHeight/100 * 5, paint);
 			
 			// Draw the foreground parallax
 			drawBackground(1);

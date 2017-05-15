@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+	
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.DTMSoundMaster.FlappyBird" >
+
+    <application
+        
+		android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="Flappy Bird"
+        android:theme="@style/AppTheme"
+		android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+		android:screenOrientation="portrait" >
+        
+		<activity
+            
+			android:name=".Main"
+            android:label="Flappy Bird" >
+            
+			<intent-filter>
+                
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+            
+			</intent-filter>
+        
+		</activity>
+    
+	</application>
+
+</manifest>

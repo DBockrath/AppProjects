@@ -1,11 +1,7 @@
 package com.DTMSoundMaster.GalaxyTraders;
+import android.os.Bundle;
+import android.app.Activity;
 
-public class Travel {
-	
-	 public void planet1() {
-		 
-		 
-		 
-	 }
+public class Travel extends Activity {
 	
 }
